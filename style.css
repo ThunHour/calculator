@@ -1,0 +1,160 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    text-align: center;
+   
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+.main{
+     background: url('https://wallpaper.dog/large/20505234.jpg') no-repeat center fixed; 
+}
+.buttons-container>button {
+    cursor: default;
+}
+
+.calc-container {
+    margin: 0 auto;
+    width: 270px;
+    border-radius: 9px;
+    box-shadow: inset 0px 0px 20px 2px rgba(19, 19, 19, 1), 0px 0px 2px 1px rgba(0, 0, 0, 0.75);
+    height: 440px;
+    width: 280px;
+    background: rgb(236,175,154);
+}
+
+.calc-name {
+    font-family: 'Pacifico', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    padding-top: 7px;
+}
+
+.buttons-container {
+    cursor: default;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 300px;
+    width: 249px;
+}
+
+.buttons-container button {
+    cursor: default;
+    width: 50px;
+    height: 50px;
+    outline: 0;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: -10px;
+    margin-bottom: 3px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    text-shadow: 0 0 8px #fff, 0 0 50px #fff, 0 0 40px #FFFFFF, 0 0 70px #ff00de, 0 0 80px #FFFFFF, 0 0 100px #FFFFFF, 0 0 150px #FFFFFF;
+    border-radius: 9px;
+    -webkit-box-shadow: 0px 0px 5px 2px rgb(118, 118, 118);
+    -moz-box-shadow: 0px 0px 5px 2px rgb(118, 118, 118);
+    box-shadow: 0px 0px 5px 2px rgb(118, 118, 118);
+    border: 1px solid black;
+    background: rgb(80,76,99);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#4c4c4c', endColorstr='#131313', GradientType=0);
+}
+
+input[type="text"] {
+    text-align: right;
+    color: white;
+    border: 1px solid black;
+    height: 45px;
+    background-color: rgba(19, 19, 19, 0.8);
+    -webkit-box-shadow: 0px 0px 5px 2px rgb(118, 118, 118);
+    -moz-box-shadow: 0px 0px 5px 2px rgb(118, 118, 118);
+    box-shadow: 0px 0px 5px 2px rgb(118, 118, 118);
+    width: 233px;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+input[type="text"]:focus {
+    outline: 0;
+}
+
+.input-container {
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+.description {
+    text-shadow: 0px 1px 1px white;
+    margin-top: -20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+}
+
+.error-display {
+    height: 15px;
+    margin-top: -15px;
+    text-align: right;
+    margin-right: 24px;
+    margin-left: 24px;
+    color: white;
+}
+
+.buttons-container button:nth-child(8) {
+    cursor: default;
+    font-size: 15px;
+}
+
+.buttons-container button:nth-child(12) {
+    cursor: default;
+    font-size: 25px;
+}
+
+.buttons-container button:nth-child(16) {
+    cursor: default;
+    font-size: 22px;
+}
+
+.buttons-container button:nth-child(4) {
+    cursor: default;
+    font-size: 19px;
+}
+
+.buttons-container button:nth-child(18) {
+    cursor: default;
+    font-size: 26px;
+    text-shadow: 0 0 8px #fff, 0 0 50px #fff, 0 0 40px #FFFFFF, 0 0 70px #ff00de, 0 0 80px #FFFFFF, 0 0 100px #FFFFFF, 0 0 10px #FFFFFF;
+}
+
+.buttons-container button:last-child {
+    cursor: default;
+    width: 110px;
+}
+
+.buttons-container button:active {
+    cursor: default;
+    -webkit-box-shadow: 0px 0px 5px 2px rgb(118, 118, 118), inset 1px 1px 1px 0px black, inset -1px -1px 1px 0px black;
+    -moz-box-shadow: 0px 0px 5px 2px rgb(118, 118, 118), inset 1px 1px 1px 0px black, inset -1px -1px 1px 0px black;
+    box-shadow: 0px 0px 5px 2px rgb(118, 118, 118), inset 1px 1px 1px 0px black, inset -1px -1px 1px 0px black;
+    border: 1px solid grey;
+}
+
+.outer-cont {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.all-content {
+    margin: auto;
+}
